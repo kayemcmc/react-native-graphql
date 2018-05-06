@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import { compose, graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 
-import navStyles from './styles/navStyles';
+import navStyles from '../../styles/navStyles';
 
 
 class Post extends Component {
